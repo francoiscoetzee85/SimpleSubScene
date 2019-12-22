@@ -24,7 +24,11 @@ namespace SimpleSubScene.Systems
         protected override JobHandle OnUpdate(JobHandle inputDeps)
         {
             inputDeps = new SetData().Schedule(_qEntityData, inputDeps);
-
+        
+            inputDeps.Complete(); 
+                           
+            EntityManager.DestroyEntity(_qEntityData);
+                    
             return inputDeps;
         }
 
