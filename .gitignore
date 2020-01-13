@@ -75,3 +75,6 @@ EntityCache.meta
 StreamingAssets.meta
 *~master*
 *~HEAD*
+/Assets/SceneDependencyCache.meta
+/Assets/SceneDependencyCache/a322231b7c690387528c940ac828d692.sceneWithBuildSettings
+/Assets/SceneDependencyCache/a322231b7c690387528c940ac828d692.sceneWithBuildSettings.meta

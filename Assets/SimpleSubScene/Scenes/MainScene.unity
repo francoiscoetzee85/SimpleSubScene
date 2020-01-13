@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -235,7 +236,12 @@ MonoBehaviour:
   _SceneAsset: {fileID: 102900000, guid: 387f2778f709445538bdfb2265bd5141, type: 3}
   _HierarchyColor: {r: 0.8117648, g: 0.9921569, b: 0.46274513, a: 1}
   AutoLoadScene: 1
-  m_SubSceneHeader: {fileID: 11400000, guid: 7281f17bd751a468fa2ac7ab3ff76060, type: 2}
+  _SceneGUID:
+    Value:
+      x: 2272458627
+      y: 1430556799
+      z: 582998915
+      w: 336976726
 --- !u!4 &1407051138
 Transform:
   m_ObjectHideFlags: 0
@@ -275,8 +281,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028722986}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 1
+  m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
